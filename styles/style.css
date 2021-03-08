@@ -1,4 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navlist {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navitem {
+    margin: 10px;
+}
+
+.usericon {
+    width: 35px;
+    height: 35px;
+    display: block;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.appsicon {
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: grey;
+    border-radius: 50%;
+
+}
+
+.logodiv {
+    height: 290px;
+    display: flex;
+    flex-direction: column-reverse;
+}
 .logo {
+    
     display: block;
     margin: 0 auto;
+}
+
+.searchbar {
+    height: 160px;
+    width: 100%;
+    background-color: blue;
+}
+
+.extras {
+    width: 100%;
+    height: 35vh;
+    background-color: yellow;
+}
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    background-color: green;
 }
