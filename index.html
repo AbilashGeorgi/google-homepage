@@ -8,8 +8,8 @@
     <body>
         <div class="navbar">
             <ul class="navlist">
-                <li class="navitem"><a href="#">Gmail</a></li>
-                <li class="navitem"><a href="#">Images</a></li>
+                <li class="navitem"><a class="navlink" href="#">Gmail</a></li>
+                <li class="navitem"><a class="navlink" href="#">Images</a></li>
                 <li class="navitem"><div class="appsicon"></div></li>
                 <li class="navitem"><div class="usericon"></div></li>
             </ul>
@@ -18,9 +18,16 @@
             <img class="logo" alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
         <div class="searchdiv">
+            <form action="*">
             <div class="searchbar">
                 <div class="searchicon"></div>
+                <input class="searchfield" type="text">
             </div>
+            <div class="searchbuttons">
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm Feeling Lucky</button>
+            </div>
+            </form>
         </div>
         <div class="extras">
             extras placeholder
