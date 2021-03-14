@@ -6,6 +6,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: arial, sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .navbar {
@@ -146,11 +148,46 @@ button {
 .extras {
     width: 100%;
     flex-grow: 2;
-    background-color: yellow;
+    flex-shrink: 1;
+    text-align: center;
+    font-size: small;
 }
 
 .footer {
     width: 100%;
-    flex-grow: 1;
-    background-color: green;
+    flex-grow: .3;
+    background-color:rgb(240, 240, 240);
+    color: rgb(141, 140, 140);
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlocation {
+    height: 50%;
+    width: 100%;
+    padding-left: 20px;
+    flex: auto;
+    display: flex;
+    align-items: center; 
+    background-color: yellow;
+}
+
+.footerlinkdiv {
+    height: 50%;
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footerlinkdiv .info {
+    min-height: 45px;
+    flex: 1 1 300px;
+    background-color: red;
+}
+
+.footerlinkdiv .settings {
+    min-height: 45px;
+    flex: 1 1 300px;
+    background-color: white;
 }
